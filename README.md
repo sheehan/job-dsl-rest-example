@@ -14,7 +14,7 @@ DSL outside of the Jenkins environment or if you want to create the seed job fro
 
 ```./gradlew rest -Dpattern=<pattern> -DbaseUrl=<baseUrl> [-Dusername=<username>] [-Dpassword=<password>]```
 
-* `pattern` - ant-style path pattern of files to include
+* `pattern` - ant-style path pattern of files to include. E.g. `src/jobs/*.groovy`
 * `baseUrl` - base URL of Jenkins server
 * `username` - Jenkins username, if secured
 * `password` - Jenkins password or token, if secured
